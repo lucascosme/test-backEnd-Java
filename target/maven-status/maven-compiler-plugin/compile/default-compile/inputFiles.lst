@@ -1,0 +1,9 @@
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/domain/AvengersCodeName.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/domain/StatusPlayer.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/service/PlayerService.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/controller/HomeController.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/controller/PlayerController.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/repository/PlayerRepository.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/TestbackendjavaApplication.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/domain/Avengers.java
+/home/dev/desenv/workspace/test-backEnd-Java/src/main/java/br/com/lcsolution/testbackendjava/domain/Player.java

@@ -1,0 +1,64 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layoutDefault">
+<head>
+<title></title>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css"
+	th:href="@{/css/jquery.datetimepicker.css}" />
+<link th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+	<section layout:fragment="content" class="main-panel">
+
+		<nav class="navbar navbar-default"
+			style="background-color: #f4f3ef; border-color: #e7e7e7;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle">
+						<span class="sr-only"></span> <span
+							class="icon-bar bar1"></span> <span class="icon-bar bar2"></span>
+						<span class="icon-bar bar3"></span>
+					</button>
+					<a class="navbar-brand title-nav-bar" href="#">Lista de Jogadores</a>
+				</div>
+			</div>
+		</nav>
+		<div class="content">
+			<div class="container-fluid">
+
+				<form method="" class="form-signin">
+					<div class="date-timer-box" th:if="${listplayer}">
+					<table border="1" style="width:60%;">
+						<tr>
+							<th>Nome</th>
+							<th>Email</th>
+							<th>Telefone</th>
+							<th>Codinome</th>
+							<th>Grupo</th>
+						</tr>
+						<tr data-th-each="player : ${listplayer}">
+					        <td data-th-text="${player.name}">...</td>
+					        <td data-th-text="${player.email}">...</td>
+					        <td data-th-text="${player.telephone}">...</td>
+					        <td data-th-text="${player.codename}">...</td>
+							<td data-th-text="${player.playerGroup}">...</td>
+						</tr>
+					</table>
+					</div>
+					
+				</form>
+			</div>
+		</div>
+
+
+		<footer class="footer">
+			<div class="container-fluid"></div>
+		</footer>
+	</section>
+</body>
+</html>

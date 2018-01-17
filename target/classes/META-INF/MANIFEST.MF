@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: testbackendjava
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: dev
+Implementation-Vendor-Id: br.com.lcsolution
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/testbackendj
+ ava/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

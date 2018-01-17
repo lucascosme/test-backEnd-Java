@@ -1,0 +1,15 @@
+.navbar-default .navbar-brand {
+	    color: #ec6734;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: rgba(236, 103, 52, 0.61);
+    border-color: #ec6734;
+    }
+    
+.btn-color-orange {
+	color: #fff;
+    background-color: rgb(236, 103, 52);
+    border-color: #ec6734;
+}
