@@ -22,16 +22,17 @@ Features implementadas:
 
 Cadastro do jogador.
 Consumo de informações JSON.
+Alguns testes de unidade.
 Exibição de relatório dos jogadores cadastrados.
 
 Features faltantes:
 
 Consumo de informações XML.
-Alguns testes de unidade.
 
 Pontos á melhorar:
 
 Validação dos dados do jogador.
+Criação de mais testes de unidade para garantir 100% de cobertura do código.
 Melhorias no design da arquitetura do projeto.
 Exportar informações do relatório.
 
